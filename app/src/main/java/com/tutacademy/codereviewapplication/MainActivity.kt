@@ -2,7 +2,9 @@ package com.tutacademy.codereviewapplication
 
 import android.os.Bundle
 import android.widget.Toast
+
 import androidx.appcompat.app.AppCompatActivity
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,5 +15,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun showToast() {
         Toast.makeText(this, "Just Toast", Toast.LENGTH_SHORT).show()
+
     }
 }
